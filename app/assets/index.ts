@@ -1,4 +1,4 @@
-import kojiado from './kojiado.png'
+import kojiado from './kojiado.jpg'
 import bojnakova from './clients/Naida.jpg'
 import tresnjo from './clients/Tresnjo.jpg'
 import jules from './clients/Jules.jpg'
