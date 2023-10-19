@@ -45,7 +45,7 @@ const Skills = () => {
             }}
             className='bg-[#F3F3F3] border-[1px] border-solid border-borderLight dark:border-borderDark dark:bg-[#1E1E1E] aspect-square flex items-center justify-center rounded-[20px] skill'>
               <div className='skill-icon' dangerouslySetInnerHTML={{ __html: skill.icon }} />
-              <span className='skill-name bg-primaryDark text-primaryLight dark:bg-primaryLight dark:text-primaryDark text-[14px] rounded-full p-[3px_8px]'>{skill?.name}</span>
+              <span className='skill-name bg-primaryDark text-primaryLight dark:bg-primaryLight dark:text-primaryDark text-[14px] font-medium rounded-full p-[3px_8px]'>{skill?.name}</span>
           </motion.div>
         ))}
       </div>
