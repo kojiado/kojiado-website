@@ -39,7 +39,8 @@ const sendEmail = async (req: NextApiRequest, res: NextApiResponse) => {
     auth: {
       user: SMTP_USER,
       pass: SMTP_PASS,
-    }
+    },
+    debug: true
   });
 
   const { name, email, message } = req.body;
