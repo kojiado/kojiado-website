@@ -67,7 +67,7 @@ h1,h2,h3,h4,h5,h6 {
 
 p, button, label {
   font-family: 'Satoshi-Variable', sans-serif;
-  font-weight: 600;
+  font-weight: 600 !important;
 }
 
 .logo path, .ham-menu, .ham-menu path, .smooth-transition  {
@@ -122,7 +122,6 @@ p, button, label {
   display: flex;
   align-items: center;
   cursor: pointer;
-  font-weight: 500;
 }
 
 .primary.button {
