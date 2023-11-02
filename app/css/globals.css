@@ -66,7 +66,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p, button, label {
-  font-family: 'Satoshi-Medium', sans-serif;
+  font-family: 'Satoshi-Variable', sans-serif;
+  font-weight: 600;
 }
 
 .logo path, .ham-menu, .ham-menu path, .smooth-transition  {
