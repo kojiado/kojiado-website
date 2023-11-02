@@ -65,6 +65,11 @@ h1,h2,h3,h4,h5,h6 {
   font-family: 'ClashGrotesk-Semibold', sans-serif;
 }
 
+p, button, label {
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 500;
+}
+
 .logo path, .ham-menu, .ham-menu path, .smooth-transition  {
   transition: all 700ms cubic-bezier(0.795, 0.015, 0.000, 1.000); /* custom */
   transition-timing-function: cubic-bezier(0.795, 0.015, 0.000, 1.000); /* custom */

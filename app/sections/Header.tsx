@@ -52,7 +52,7 @@ const Header: React.FC<NavbarProps> = ({isDark,makeDark,contactForm}) => {
             viewport={{
               once: true,
             }}
-            className='absolute short:top-[65px] top-[85px] short:left-[40px] left-[50px] w-[100px]'
+            className='absolute short:top-[65px] top-[85px] short:left-[40px] left-[50px] w-[104px]'
           >
             <p className='rounded-[2px_15px_15px_15px_] p-[6px_12px] bg-[#18A7B7] text-primaryLight text-[12px]'>Open to Work.</p>
           </motion.div>

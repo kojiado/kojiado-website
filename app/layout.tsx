@@ -1,5 +1,6 @@
 import './css/globals.css'
 import './css/clash-grotesk.css'
+import './css/satoshi.css'
 import type { Metadata } from 'next'
 
 export const metadata = {
