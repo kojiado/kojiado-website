@@ -13,7 +13,7 @@ interface ServicesProps {
 }
 
 const Services: React.FC<ServicesProps> = ({contactForm}) => {
-  const [open, setOpen] = React.useState();
+  const [open, setOpen] = React.useState(0);
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
 
   const services = [
