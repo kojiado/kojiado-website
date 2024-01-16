@@ -75,8 +75,9 @@ const Services: React.FC<ServicesProps> = ({contactForm}) => {
               once: true,
             }} 
             className="accordion"
+            key={service.id}
           >
-            <Accordion key={service.id} open={open === service.id}>
+            <Accordion open={open === service.id}>
               <AccordionHeader className="accordion-header" onClick={() => handleOpen(service.id)}>
                 <div className="w-full flex items-center justify-between gap-[20px]">
                   <div className='flex items-start gap-[20px]'>
