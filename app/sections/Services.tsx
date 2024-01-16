@@ -85,9 +85,9 @@ const Services: React.FC<ServicesProps> = ({contactForm}) => {
                   <div className={`expand-more-icon ${open === service.id ? 'rotate-[45deg]' : 'rotate-0'}`}>
                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M9 1V17V1Z" fill="#121212"/>
-                      <path d="M9 1V17" stroke="#121212" stroke-width="2" strokeLinecap="round" strokeLinejoin="round"/>
+                      <path d="M9 1V17" stroke="#121212" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                       <path d="M1 8.95068H17H1Z" fill="#121212"/>
-                      <path d="M1 8.95068H17" stroke="#121212" stroke-width="2" strokeLinecap="round" strokeLinejoin="round"/>
+                      <path d="M1 8.95068H17" stroke="#121212" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
                   </div>
                 </div>
