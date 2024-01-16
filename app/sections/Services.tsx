@@ -60,7 +60,7 @@ const Services: React.FC<ServicesProps> = ({contactForm}) => {
             once: true,
           }}
           className='w-full sm:max-w-[600px] text-textLight dark:text-textDark'>
-            Explore my array of creative solutions, finely crafted and personalized just for you. I'm here to transform your ideas into extraordinary experiences.
+            Explore my array of creative solutions, finely crafted and personalized just for you. I&apos;m here to transform your ideas into extraordinary experiences.
           </motion.p>
       </div>
       
