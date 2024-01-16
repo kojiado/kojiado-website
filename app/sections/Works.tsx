@@ -40,7 +40,7 @@ const Works = () => {
         viewport={{
           once: true,
         }} 
-        className='text-primaryDark dark:text-primaryLight text-[36px] leading-[54px]'>
+        className='text-primaryDark dark:text-primaryLight'>
           Works
         </motion.h2>
         <motion.p 

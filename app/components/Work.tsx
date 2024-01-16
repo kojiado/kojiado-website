@@ -24,8 +24,8 @@ const Work: React.FC<WorkProps> = ({service,name,description,caseStudy,githubRep
         <Image alt={name} width="800" height="1067" className='w-full block sm:hidden' src={thumbnail_mobile}/>
       </div>
       <div className='flex flex-1 flex-col gap-[20px] p-[30px] sm:p-[40px] justify-center'>
-        <p className='bg-[#EDEDED] dark:bg-borderDark text-primaryDark dark:text-primaryLight p-[6px_12px] rounded-[8px] text-[12px] tracking-[2px] uppercase w-fit font-semibold'>{service}</p>
-        <h3 className='text-primaryDark dark:text-primaryLight text-[24px] leading-[36px]'>{name}</h3>
+        <p className='bg-[#EDEDED] dark:bg-borderDark text-primaryDark dark:text-primaryLight p-[6px_12px] rounded-[8px] text-[12px] tracking-[2px] uppercase w-fit font-mainFont font-semibold'>{service}</p>
+        <span className='text-primaryDark dark:text-primaryLight text-[28px] font-semibold font-mainFont'>{name}</span>
         <p className='text-textLight dark:text-textDark'>{description}</p>
         <div className='flex gap-[16px]'>
           {caseStudy && 

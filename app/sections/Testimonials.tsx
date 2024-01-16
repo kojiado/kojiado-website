@@ -143,7 +143,7 @@ const Testimonials = () => {
           viewport={{
             once: true,
           }}
-          className='text-primaryDark dark:text-primaryLight text-[36px] leading-[54px]'>
+          className='text-primaryDark dark:text-primaryLight'>
             Clients
         </motion.h2>
         <motion.p 
@@ -158,7 +158,7 @@ const Testimonials = () => {
             Join the ranks of satisfied clients
         </motion.p>
       </div>
-      <motion.div variants={fadeUpAnimationVariants} initial="initial" whileInView="animate" viewport={{once:true}} transition={{ ease: [0.71,0.08,0.2,0.92], duration: 0.75 }} id="clients2" className='justify-center gap-y-[8px] gap-x-[10px] text-[30px] sm:text-[36px] font-bold flex flex-wrap items-center w-full clients'>
+      <motion.div variants={fadeUpAnimationVariants} initial="initial" whileInView="animate" viewport={{once:true}} transition={{ ease: [0.71,0.08,0.2,0.92], duration: 0.75 }} id="clients2" className='justify-center gap-y-[8px] gap-x-[10px] text-[30px] sm:text-[36px] font-mainFont font-semibold flex flex-wrap items-center w-full clients'>
         <div className='flex text-primaryDark dark:text-primaryLight'>If</div> 
         <div className='flex text-primaryDark dark:text-primaryLight'>client</div>
         <div className='client-box relative' ref={ref => clientBoxRefs.current[0] = ref}>

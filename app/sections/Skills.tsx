@@ -16,7 +16,7 @@ const Skills = () => {
           viewport={{
             once: true,
           }}
-          className='text-primaryDark dark:text-primaryLight text-[36px] leading-[54px]'>
+          className='text-primaryDark dark:text-primaryLight'>
             Superpowers
         </motion.h2>
 

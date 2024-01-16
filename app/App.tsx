@@ -1,6 +1,7 @@
 import CustomCursor from "./CustomCursor"
 import { Suspense, useEffect, useRef, useState } from 'react'
 import Header from "./sections/Header";
+import Services from "./sections/Services";
 import About from "./sections/About";
 import Works from "./sections/Works";
 import Skills from "./sections/Skills";
@@ -88,6 +89,9 @@ const App = () => {
             contactForm={openContactForm}
           />
           <About />
+          <Services 
+            contactForm={openContactForm}
+          />
           <Works />
           <Skills />
           <Testimonials />

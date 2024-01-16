@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -12,6 +10,9 @@
   --borderDark: #2A2A2A;
   --borderLight: #DBDBDB;
   --accent: #F9485C;
+  --accentHover: #e61839;
+  --accentDark: #fe6e7b;
+  --accentDark: #fe6e7b;
 }
 
 ::-webkit-scrollbar {
@@ -56,18 +57,30 @@ body * {
 }
 
 body {
-  font-family: 'ClashGrotesk-Variable', sans-serif;
+  font-family: 'Archivo', sans-serif;
   font-weight: 500;
   overflow-x: hidden !important;
 }
 
 h1,h2,h3,h4,h5,h6 {
   font-family: 'ClashGrotesk-Semibold', sans-serif;
+  line-height: 130%;
 }
 
-p, button, label {
-  font-family: 'Satoshi-Variable', sans-serif;
-  font-weight: 600 !important;
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+h4 {
+  font-size: 28px;
 }
 
 .logo path, .ham-menu, .ham-menu path, .smooth-transition  {
@@ -122,6 +135,7 @@ p, button, label {
   display: flex;
   align-items: center;
   cursor: pointer;
+  font-weight: 800;
 }
 
 .primary.button {
@@ -318,6 +332,7 @@ nav ul li a {
   display: none;
   opacity: 0;
   z-index: 10;
+  font-family: 'Archivo', sans-serif;
 }
 
 .testimonial-box.show {
@@ -401,6 +416,21 @@ nav ul li a {
 
   .testimonial-box:before {
     top: -29px;
+  }
+  h1 {
+    font-size: 48px;
+  }
+  
+  h2 {
+    font-size: 36px;
+  }
+  
+  h3 {
+    font-size: 24px;
+  }
+  
+  h4 {
+    font-size: 20px;
   }
 } 
 
@@ -761,7 +791,7 @@ input:focus, textarea:focus {
 }
 
 .cta-phone, .cta-email {
-  font-weight: 600 !important;
+  font-weight: 800 !important;
 }
 
 .active.cta-phone-icon {
@@ -1056,4 +1086,46 @@ input:focus, textarea:focus {
 
 .dark .tool-icon svg path {
   fill: var(--primaryLight);
+}
+
+.accordions .accordion {
+  border-bottom: 1px solid var(--borderLight);
+  padding: 20px 0;
+}
+
+.accordions .accordion:first-child {
+  border-top: 1px solid var(--borderLight);
+}
+
+.accordions .accordion-header {
+  padding: 20px 0;
+}
+
+.dark .accordions .accordion {
+  border-color: var(--borderDark);
+}
+
+.accordions .expand-more-icon {
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  min-height: 40px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--borderLight);
+  transition: 0.3s all;
+}
+
+.accordions .expand-more-icon path {
+  stroke: var(--primaryDark);
+}
+
+.dark .accordions .expand-more-icon {
+  background-color: var(--borderDark);
+}
+
+.dark .accordions .expand-more-icon svg path {
+  stroke: var(--primaryLight);
 }
