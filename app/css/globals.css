@@ -1088,44 +1088,31 @@ input:focus, textarea:focus {
   fill: var(--primaryLight);
 }
 
-.accordions .accordion {
+.services .service {
   border-bottom: 1px solid var(--borderLight);
-  padding: 20px 0;
+  padding: 40px 0;
 }
 
-.accordions .accordion:first-child {
+.services .service:first-child {
   border-top: 1px solid var(--borderLight);
 }
 
-.accordions .accordion-header {
-  padding: 20px 0;
-}
-
-.dark .accordions .accordion {
+.dark .services .service {
   border-color: var(--borderDark);
 }
 
-.accordions .expand-more-icon {
-  width: 40px;
-  height: 40px;
-  min-width: 40px;
-  min-height: 40px;
-  border-radius: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--borderLight);
-  transition: 0.3s all;
+.dark .services .service:first-child {
+  border-color: var(--borderDark);
 }
 
-.accordions .expand-more-icon path {
-  stroke: var(--primaryDark);
+.services .service .id {
+  font-weight: 800;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--primaryDark);
+  height: fit-content;
+  line-height: 120%;
 }
 
-.dark .accordions .expand-more-icon {
-  background-color: var(--borderDark);
-}
-
-.dark .accordions .expand-more-icon svg path {
-  stroke: var(--primaryLight);
+.dark .services .service .id {
+  -webkit-text-stroke: 1px var(--primaryLight);
 }

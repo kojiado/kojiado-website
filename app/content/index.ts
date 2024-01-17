@@ -153,3 +153,21 @@ export const contact = [
     to: ""
   }
 ]
+
+export const services = [
+  {
+    id: 1,
+    title: 'UI/UX Design',
+    content: 'Elevate user experiences with my tailored UI/UX design services. From intuitive interfaces to seamless navigation, I craft digital journeys that captivate and engage users. Your brand\'s story comes to life through visually appealing designs that prioritize both aesthetics and functionality.',
+  },
+  {
+    id: 2,
+    title: 'Front-End Development',
+    content: 'Transforming visions into interactive realities, I specialize in front-end development with seamless integration into full-stack solutions. From crafting visually stunning interfaces to architecting scalable and secure server-side solutions, I provide end-to-end development services for a comprehensive digital presence.',
+  },
+  {
+    id: 3,
+    title: 'Graphic Design',
+    content: 'Immerse your brand in visually striking aesthetics with my graphic design prowess. From logos to marketing collateral, I create captivating visuals that resonate with your audience. Each design is a harmonious blend of creativity and strategic thinking, ensuring your brand stands out in a visually crowded digital landscape.',
+  },
+];
