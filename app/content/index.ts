@@ -162,7 +162,7 @@ export const services = [
   },
   {
     id: 2,
-    title: 'Front-End Development',
+    title: 'Web Development',
     content: 'Transforming visions into interactive realities, I specialize in front-end development with seamless integration into full-stack solutions. From crafting visually stunning interfaces to architecting scalable and secure server-side solutions, I provide end-to-end development services for a comprehensive digital presence.',
   },
   {

@@ -41,7 +41,7 @@ const About = () => {
         once: true,
       }} 
       className='text-primaryDark dark:text-primaryLight text-[20px] leading-[30px] ss:text-[30px] ss:leading-[45px] text-center'>
-        Hey there! I&apos;m <span className='bg-accent rounded-[10px] p-[4px_8px] ss:p-[6px_12px] text-[18px] ss:text-[24px] text-primaryLight'>Adnan Brkić</span>, a 23-year-old UI/UX Designer & Front-End Developer. Currently pursuing my 3rd year in Information Technologies at International Burch University, I&apos;m deeply passionate about crafting seamless user experiences and captivating designs. When I&apos;m not immersed in the digital realm, you can find me hitting the gym to stay fit, reading books for endless inspiration, and diving into the world of music and podcasts for some delightful vibes.
+        Hey there! I&apos;m <span className='bg-accent rounded-[10px] p-[4px_8px] ss:p-[6px_12px] text-[18px] ss:text-[24px] text-primaryLight'>Adnan Brkić</span>, a 23-year-old UI/UX Designer, Front-End Developer, and Graphic Design enthusiast. Currently pursuing my 3rd year in Information Technologies at International Burch University, I&apos;m deeply passionate about crafting seamless user experiences and captivating designs. While my specialty lies in Front-End development, I also bring my expertise to the Full Stack realm. When I&apos;m not immersed in the digital realm, you can find me hitting the gym to stay fit, reading books for endless inspiration, and diving into the world of music and podcasts for some delightful vibes.
       </motion.h2>
       <div className='flex flex-col gap-[40px] items-center mt-[80px]'>
         <motion.p 
